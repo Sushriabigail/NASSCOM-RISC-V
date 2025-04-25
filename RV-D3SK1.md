@@ -41,28 +41,28 @@ Example: Pythagores Theorem
 
 ![Screenshot 2025-04-25 183421](https://github.com/user-attachments/assets/14a05137-fb1f-4f72-8c20-ed6936f7135b)
 
-A) Inverter 
+#### A) Inverter 
 
 ![Screenshot 2025-04-25 190221](https://github.com/user-attachments/assets/677a4b24-733d-4fce-af75-3c5ebdcb37f5)
 
-B) Other logic : Boolean operators (&&,||,^)
+#### B) Other logic : Boolean operators ( && , || , ^ )
 
 ![Screenshot 2025-04-25 192740](https://github.com/user-attachments/assets/c5d5b34b-f0af-4e3a-afdf-2d5ffaf2a299)
 
-### L3.2 Vectors
+### L3.2  Vectors
 Vectors of 5 bits
 ![Screenshot 2025-04-25 193430](https://github.com/user-attachments/assets/08a8dca7-9a5b-41e1-b6a7-f126eb7543ae)
 
-### L3.3 Mux
-1. [2:0] Mux
+### L3.3  Mux
+#### 1. [ 2:0 ] Mux
    
 ![Screenshot 2025-04-25 193910](https://github.com/user-attachments/assets/3724e8b0-b5e4-4ff3-baf4-6740a54ea19f)
  
-2. [7:0] Mux
+#### 2. [ 7:0 ] Mux
    
 ![Screenshot 2025-04-25 194116](https://github.com/user-attachments/assets/f50a333a-bdd6-4de4-8928-f7d56a8daf40)
 
-### L3.4 Combinational Calculator
+### L3.4  Combinational Calculator
 
 ![Screenshot 2025-04-25 195741](https://github.com/user-attachments/assets/1595a276-9c26-45ae-892b-d627b0d84e03)
 
