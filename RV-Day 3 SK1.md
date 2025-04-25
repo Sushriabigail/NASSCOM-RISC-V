@@ -1,5 +1,5 @@
 # Digital Logic with TL-Verilog and Makerchip
-## 1. Combinational logic in TL-Verilog using Makerchip
+## 1) Combinational logic in TL-Verilog using Makerchip
 ### L1.  Introduction to Logic Gates
 #### 1. Logic Gates ?
 They are **fundamental building blocks** for digital circuits which take one or more inputs (1s or 0s) and give an output based on some logic.
