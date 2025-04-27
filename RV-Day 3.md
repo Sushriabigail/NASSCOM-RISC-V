@@ -33,11 +33,11 @@
    ![Screenshot 2025-04-25 183421](https://github.com/user-attachments/assets/14a05137-fb1f-4f72-8c20-ed6936f7135b)
 
 
-**Inverter** 
+#### Inverter
    ![Screenshot 2025-04-25 190221](https://github.com/user-attachments/assets/677a4b24-733d-4fce-af75-3c5ebdcb37f5)
 
 
-**Other logic : Boolean operators ( && , || , ^ )**
+#### Other logic : Boolean operators ( && , || , ^ )
    ![Screenshot 2025-04-25 192740](https://github.com/user-attachments/assets/c5d5b34b-f0af-4e3a-afdf-2d5ffaf2a299)
 
 
@@ -47,11 +47,11 @@
 
 ### L3.3  Mux
 **1.[ 2:0 ] Mux**
-![Screenshot 2025-04-25 193910](https://github.com/user-attachments/assets/3724e8b0-b5e4-4ff3-baf4-6740a54ea19f)
+   ![Screenshot 2025-04-25 193910](https://github.com/user-attachments/assets/3724e8b0-b5e4-4ff3-baf4-6740a54ea19f)
 
  
 **2. [ 7:0 ] Mux**
-![Screenshot 2025-04-25 194116](https://github.com/user-attachments/assets/f50a333a-bdd6-4de4-8928-f7d56a8daf40)
+   ![Screenshot 2025-04-25 194116](https://github.com/user-attachments/assets/f50a333a-bdd6-4de4-8928-f7d56a8daf40)
 
 ### L3.4  Combinational Calculator
    ![Screenshot 2025-04-25 195741](https://github.com/user-attachments/assets/1595a276-9c26-45ae-892b-d627b0d84e03)
@@ -59,7 +59,7 @@
 -----
 
 ## 2) Sequential Logic 
-### L1.  Introduction to Sequential LOgic and Counter Lab 
+### L1.  Introduction to Sequential Logic and Counter Lab 
 Sequential logic is sequenced by a clock signal.
 Example: D-flip-flop transition next state to current state on a rising clock edge
 The circuit is constructed to enter a known state in response to a reset signal.
@@ -75,8 +75,8 @@ The circuit is constructed to enter a known state in response to a reset signal.
 Values in Verilog
 eg: 16'hFO where 16 - 16-bits; h - hexadecimal; FO - value 
    ![Screenshot 2025-04-25 212255](https://github.com/user-attachments/assets/34e5ae43-4bef-43de-b794-83e59d33b8a8)
-   ![Screenshot 2025-04-25 212052](https://github.com/user-attachments/assets/4a15b197-6714-4c05-9c41-82e270c9e706)
-
+   ![Screenshot 2025-04-27 141818](https://github.com/user-attachments/assets/e4fdce25-15c3-491d-89d1-426da3cce27c)
+   
 ---
 
 ## 3)  Pipelined logic
@@ -85,10 +85,26 @@ eg: 16'hFO where 16 - 16-bits; h - hexadecimal; FO - value
 - In the comparison between **SystemVerilog and TL-Verilog**, the code reduction property of TL-Verilog offers a significant advantage over SystemVerilog. This reduction minimizes bugs and accelerates the design process, making development more efficient.
 
 ### L2. Pipeline Logic Advantages And Demo In Platform
+- Pipeline logic enhances efficiency by breaking tasks into stages, enabling parallel execution.
+- It speeds up processing, optimizes resource use, reduces latency, improves scalability, and supports automation in workflows.
+   ![Screenshot 2025-04-27 124530](https://github.com/user-attachments/assets/008f894c-974b-4b00-bf2f-3d250210bb9b) 
 
 ### L3. Lab On Error Conditions Within Computation Pipeline
-
-![Screenshot 2025-04-25 225504](https://github.com/user-attachments/assets/be75aae1-7ecb-4fb9-9a8c-fa91941e9e93)
+- **Identifier Type Determination** – The type of an identifier is defined by its symbol prefix and case/delimitation style.
+- **Example Breakdown** – `$pipe_signal`  
+   - **Symbol Prefix:** `$`  
+   - **Delimitation Style:** `_`  
+   - **Tokens:** `pipe`, `signal`
+- **Delimitation Styles Based on First Token:**  
+   - `$lower_case` → pipe signal  
+   - `$CamelCase` → state signal  
+   - `$UPPER_CASE` → keyword signal  
+- **Numbers Affect Tokens:**  
+   - `$base64_value` is valid  
+   - `$bad_name_5` is invalid
+- **Numeric Identifiers:**  
+   - `>>1` represents "ahead by 1".
+   ![Screenshot 2025-04-25 225504](https://github.com/user-attachments/assets/be75aae1-7ecb-4fb9-9a8c-fa91941e9e93)
 
 ### L4. Lab On 2-Cycle Calculator
 
