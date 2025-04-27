@@ -1,24 +1,22 @@
 # Digital Logic with TL-Verilog and Makerchip
 ## 1) Combinational logic in TL-Verilog using Makerchip
 ### L1. Introduction to Logic Gates
-- **Logic Gates** are *fundamental building blocks* for digital circuits which take one or more inputs (1s or 0s) and give an output based on the logic.
+1.**Logic Gates** are *fundamental building blocks* for digital circuits which take one or more inputs (1s or 0s) and give an output based on the logic.
 
-   ![Screenshot 2025-04-25 170303](https://github.com/user-attachments/assets/3411737f-a55c-486c-8d9f-352f6031c01b)
+  ![Screenshot 2025-04-25 170303](https://github.com/user-attachments/assets/3f92dc6f-33c9-4a0f-9b03-8a252eae09dd)
 
-- **Combinational circuits** are complex digital circuits that rely on fundamental building blocks, such as logic gates (AND, OR, NOT, XOR, etc.). They determine their outputs solely based on current inputs, without utilizing any memory or feedback mechanisms.
-  
-   ![Screenshot 2025-04-25 172211](https://github.com/user-attachments/assets/abd179a0-9a8f-4adc-b394-3f66ef3f923e)
+2.**Combinational circuits** are complex digital circuits that rely on fundamental building blocks, such as logic gates (AND, OR, NOT, XOR, etc.). They determine their outputs solely based on current inputs, without utilizing any memory or feedback mechanisms.
+
+  ![Screenshot 2025-04-25 172211](https://github.com/user-attachments/assets/f4268b47-d086-498d-9542-12d643ac77d3)   ![Screenshot 2025-04-25 172855](https://github.com/user-attachments/assets/b28965fa-1fe0-44cf-9161-e1fc141d7ce4)
 
 *Example*: Full Adder (adds 3 bits together) :
 - Inputs: A, B, Cin (carry-in)  
 - Outputs: S (sum), Cout (carry-out)
-  
-   ![Screenshot 2025-04-25 172855](https://github.com/user-attachments/assets/3635780a-ef8a-40d0-b4a9-75ea2bd39747)
 
-- **Boolean Operators** are logical connectors used to evaluate conditions in programming and digital logic.
+3.**Boolean Operators** are logical connectors used to evaluate conditions in programming and digital logic.
 
-   ![Screenshot 2025-04-25 173724](https://github.com/user-attachments/assets/c771221c-62ae-4b8b-97ed-354b8450bbfe)
-   
+   ![Screenshot 2025-04-25 173724](https://github.com/user-attachments/assets/8b003fb5-b129-4331-b1c3-59c4c27970ca)
+
 ------
 
 ### L2. Basic Mux Implementation And Introduction To Makerchip
@@ -75,9 +73,9 @@ The circuit is constructed to enter a known state in response to a reset signal.
 Values in Verilog
 eg: 16'hFO where 16 - 16-bits; h - hexadecimal; FO - value 
    ![Screenshot 2025-04-25 212255](https://github.com/user-attachments/assets/34e5ae43-4bef-43de-b794-83e59d33b8a8)
-   ![Screenshot 2025-04-27 141818](https://github.com/user-attachments/assets/e4fdce25-15c3-491d-89d1-426da3cce27c)
-   
----
+   ![Screenshot 2025-04-27 145412](https://github.com/user-attachments/assets/e64896ec-025e-41e5-8478-22960a1e15c5)
+
+-----
 
 ## 3)  Pipelined logic
 ### L1. Pipelined Logic And Re-Timing
